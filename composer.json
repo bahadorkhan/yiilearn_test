@@ -1,0 +1,21 @@
+{
+    "name": "testyii/yii2-testyii",
+    "description": "create extention test for learn",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension"],
+    "license": "GPL-2.0",
+    "authors": [
+        {
+            "name": "[empty]",
+            "email": "b@b.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "testyii\\test\\": ""
+        }
+    }
+}
